@@ -10,7 +10,6 @@ RUN dnf -y --disableplugin=subscription-manager module enable ruby:2.5 && \
     postgresql-devel openssl-devel libxml2-devel \
     #ImageMagick deps
     autoconf libpng-devel libjpeg-devel librsvg2 && \ 
-
     dnf clean all
 
 # Compile ImageMagick 6 from source.
